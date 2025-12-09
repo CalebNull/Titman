@@ -24,7 +24,7 @@ const services = [
     {
         title: "Side By Sides (UTVs)",
         description: "Side by Side vehicle maintenance and repairs for off-road fun.",
-        icon: Car, // Placeholder for UTV
+        icon: Car,
     },
     {
         title: "Tires",
