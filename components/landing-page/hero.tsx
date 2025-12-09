@@ -53,7 +53,10 @@ export const Hero = ({ children }: HeroProps) => {
                         <div className="flex flex-col items-start text-sm text-slate-400 gap-1 bg-slate-900/50 p-4 rounded-xl border border-slate-800 backdrop-blur-sm">
                             <div className="flex items-center gap-2">
                                 <Clock className="h-4 w-4 text-orange-500" />
-                                <span>Mon - Fri: 8:00 AM - 5:00 PM</span>
+                                <span>
+                                    Mon - Fri: 8:00 AM - 5:00 PM
+                                    Sat: 8:00 AM - 1:00 PM
+                                </span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <MapPin className="h-4 w-4 text-orange-500" />
