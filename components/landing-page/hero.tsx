@@ -55,6 +55,7 @@ export const Hero = ({ children }: HeroProps) => {
                                 <Clock className="h-4 w-4 text-orange-500" />
                                 <span>
                                     Mon - Fri: 8:00 AM - 5:00 PM
+                                    <br />
                                     Sat: 8:00 AM - 1:00 PM
                                 </span>
                             </div>
