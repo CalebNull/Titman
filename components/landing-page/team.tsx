@@ -5,7 +5,7 @@ import Image from "next/image";
 const team = [
     {
         name: "Chris Titman",
-        role: "Owner / Lead Technician",
+        role: "Owner",
         image: "/employees/chris.jpeg",
     },
     {
