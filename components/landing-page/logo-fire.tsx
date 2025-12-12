@@ -15,9 +15,9 @@ export const FireLogo = ({
     return (
         <motion.div
             layoutId={layoutId}
-            className={cn("relative flex items-center justify-center", className)}
+            className={cn("relative flex items-center justify-center w-full h-full", className)}
         >
-            {/* Fire Effect - Simplified for performance but effective */}
+            {/* Fire Effect */}
             <div className="absolute inset-0 -z-10 flex items-center justify-center">
                 {[...Array(5)].map((_, i) => (
                     <motion.div
@@ -54,8 +54,6 @@ export const FireLogo = ({
                     }}
                 />
             </div>
-
-            {/* Logo Text/Icon */}
             {/* Logo Image */}
             <div className={cn("relative z-10", compact ? "w-40 h-12" : "w-64 h-24 md:w-96 md:h-36")}>
                 <img

@@ -14,11 +14,10 @@ export const Hero = ({ children }: HeroProps) => {
         <section className="relative min-h-[90vh] flex flex-col items-center justify-center overflow-hidden bg-slate-950 text-white pt-20">
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-linear-to-b from-slate-950/80 via-slate-950/60 to-slate-950 z-10" />
-                <Image
-                    className="bg-center opacity-40"
+                <img
+                    className="h-full w-full object-cover bg-center opacity-40"
                     src="/images/car.jpg"
-                    alt="Hero Background"
-                    fill
+                    alt="Mechanic"
                 />
             </div>
 
@@ -56,7 +55,7 @@ export const Hero = ({ children }: HeroProps) => {
                                 <span>
                                     Mon - Fri: 8:00 AM - 5:00 PM
                                     <br />
-                                    Sat: 8:00 AM - 1:00 PM
+                                    Sat: 9:00 AM - 1:00 PM
                                 </span>
                             </div>
                             <div className="flex items-center gap-2">
