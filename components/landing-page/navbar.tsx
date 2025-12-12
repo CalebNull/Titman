@@ -38,7 +38,6 @@ export const Navbar = ({ children }: NavbarProps) => {
     }, []);
 
     const navLinks = [
-        { name: "Home", href: "#hero" },
         { name: "Services", href: "#services" },
         { name: "Our Promise", href: "#promise" },
         { name: "Team Members", href: "#team" },
