@@ -8,7 +8,7 @@ import { PromiseSection } from "./promise";
 import { Team } from "./team";
 import { Footer } from "./footer";
 import { FireLogo } from "./logo-fire";
-import { LayoutGroup, motion } from "framer-motion";
+import { LayoutGroup } from "framer-motion";
 
 export const LandingPage = () => {
     const [scrolled, setScrolled] = useState(false);

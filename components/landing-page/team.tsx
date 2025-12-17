@@ -5,14 +5,14 @@ import Image from "next/image";
 const team = [
     {
         name: "Chris Titman",
-        role: "Owner",
+        role: "Owner/Operator",
         image: "/employees/chris.jpeg",
     },
-    {
-        name: "Tommy Harris",
-        role: "Senior Technician",
-        image: "/employees/tommy.jpg",
-    },
+    // {
+    //     name: "Tommy Harris",
+    //     role: "Senior Technician",
+    //     image: "/employees/tommy.jpg",
+    // },
 ];
 
 export const Team = () => {
@@ -32,7 +32,7 @@ export const Team = () => {
                     </h3>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <div className="grid grid-cols-1 gap-12 max-w-2xl mx-auto">
                     {team.map((member, index) => (
                         <div key={index} className="group relative overflow-hidden rounded-2xl shadow-2xl aspect-4/3">
                             <Image
